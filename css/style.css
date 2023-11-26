@@ -1,0 +1,152 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    color: white;
+    height: 100vh;
+    font-family: 'Outfit', sans-serif;
+
+}
+
+.container-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 500px;
+    margin: 0;
+}
+
+.col-md-4 {
+    width: 295px;
+}
+
+.cuadro {
+    width: 295px;
+    height: 100%;
+    border-radius: 10px;
+    background-color: hsl(216, 50%, 16%);
+}
+a{
+    text-decoration: none;
+}
+
+
+.imagen {
+    margin-top: 15px;
+    width: 260px;
+    border-radius: 10px;
+    position: relative;
+}
+.imgagen .ojo {
+    position: absolute;  
+    top: 0;  
+    left: 0;
+    opacity: 0;
+    transition: .5s;
+}
+
+
+img:hover{
+    opacity: 0.5;
+}
+
+h5 {
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 6px;
+    text-align: left;
+    font-weight: 700;
+}
+h5:hover {
+    color: hsl(178, 100%, 50%);
+
+}
+
+
+
+.equilibrium {
+    margin-left: 6px;
+    text-align: left;
+    color: hsl(215, 51%, 80%, 50%)
+}
+
+
+/*-----------INFERIOR---------*/
+
+.superior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px 0 10px;
+
+}
+
+.letter {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    margin: 0;
+}
+
+.diamond {
+    width: 10px;
+    margin: 0 5px;
+}
+
+.eth {
+    font-size: 14px;
+    color: hsl(178, 100%, 50%);
+    margin: 0;
+}
+
+.clock {
+    width: 15px;
+    margin: 0 5px;
+}
+
+.days {
+    color: hsl(215, 51%, 80%, 60%);
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0;
+}
+
+.linea{
+    display: flex;
+    justify-content: center;
+}
+hr {
+    color: hsl(215, 51%, 80%, 60%);
+    width: 95%;
+}
+
+.inferior{
+    display: flex;
+    margin: 0 10px 0 10px;
+    justify-content: flex-start;
+}
+.avatar{
+    width: 30px;
+    margin: 0;
+}
+.creation{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: hsl(215, 51%, 80%, 60%);
+    margin: 0 0 0 15px;
+}
+span{
+    color: white;
+}
